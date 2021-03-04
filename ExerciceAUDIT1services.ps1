@@ -9,7 +9,7 @@
 #===============================================================================
 
 Write-Host "Le fichier auditServices.txt est en création..."
-#Nouvelle version
+#Nouvelle version 2
 
 $services = Get-Service | Where-Object {$_.name -like "Dhcp" } 
         $date=Get-Date
